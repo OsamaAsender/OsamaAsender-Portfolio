@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap');
+
+body{
+    font-family:'Sofia sans' ; 
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+header{
+    height: 90vh;
+    padding-top: 3%;
+    display: flex;
+    flex-direction:column;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./images/slide1.jpg);
+}
+button{
+      padding-block: 10px;
+    border-radius: 20px;
+    border: none;
+    padding-inline: 20px;
+}
+button:hover{
+    cursor: pointer;
+}
+nav{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+}
+ul li{
+    list-style-type: none;
+}
+section{
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+    align-items: end;
+}
+.NavbarAnchors{
+background-color: transparent;
+color: white;
+font-size: 20px;
+}
+.NavbarAnchors:hover{
+    background-color: #FFC0CB;
+    color: black;
+    transition-duration: 500ms;
+}
+.ActiveNavbarAnchors{
+    background-color:#FFC0CB ;
+    font-size: 20px;
+}
+.ThemeBtn{
+    background-color: #FFC0CB;
+    padding-inline: 30px;
+    padding-block: 15px;
+    border-radius: 40px;
+    margin: auto;
+}
+.ThemeBtn:hover{
+    background-color: black;
+    color: white;
+    transition-duration: 500ms;
+}
+
+.dFlex{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    align-items: center;
+}
+.HeaderTextSize{
+    font-size: 80px;
+}
+.HeaderTextSize2{
+    font-size: 40px;
+}
+.ContentTextSize{
+    font-size: larger;
+}
+.ContentTextSize2{
+    font-size: 30px;
+}
+.arrowFontSize{
+    font-size: 90px;
+    color: white;
+    margin-inline: 10px;
+}
+.arrowFontSize:hover{
+    color: #FFC0CB;
+    transition-duration: 500ms;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.AboutSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+}
+.BookingSection{
+    text-align: center;
+}
+.hr{
+    width:40%;
+    margin: auto;
+}
+.vehicleViews{
+    margin: auto;
+    width: 76%;
+    margin-top: 4%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.item{
+    display: flex;
+    padding-left: 40px;
+    flex-direction: row;
+    justify-content: start;
+    align-items: end;
+    width: 20vw;
+    height: 40vh;
+    color: white;
+}
+.itemBg1{
+    background-image: url(./images/gallery/pic1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover ;
+}
+
+.itemBg2{
+    background-image: url(./images/gallery/pic2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover ;
+}
+.itemBg3{
+    background-image: url(./images/gallery/pic3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover ;
+}
+.VideoDiv{
+    padding-top: 5%;
+    margin:auto;
+    width: 73%;
+}
+.itemBg4{
+    background-image: url(./images/gallery/pic4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover ;
+}
+.itemBg5{
+    background-image: url(./images/gallery/pic5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover ;
+}
+.itemBg6{
+    background-image: url(./images/gallery/pic6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover ;
+}
+.Specs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+}
+.SpecsTableContainer{
+    width: 100%;
+    
+}
+.SpecsTableDiv{
+    box-shadow: 2px 5px 6px 6px #b9b9b9; 
+    width:50%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.leftTable{
+    background-color: black;
+    color: white;
+    width: 49%;
+}
+.leftTable table tr td{
+    padding:55px;
+    font-size: xx-large;
+}
+.rightTable{
+    width: 51%;
+}
+.rightTable table tr td{
+    padding:55px;
+    font-size: xx-large;
+}
+.rightTable table tr td:hover{
+    background-color: #d1d1d1;
+}
+.evenRow{
+    background-color: #e9e9e9;
+}
+.enquiryContainer{
+    width: 100%;
+    margin-top:4%;
+    background: linear-gradient(to bottom, #629399, #7e858a);
+}
+.enquiryDiv{
+    display: flex;
+    flex-direction: column;
+    width:73%;
+    margin: auto;
+}
+.Enquiry{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    color: white;
+}
+.Enquiryform{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 87%;
+    margin: auto;
+    padding-bottom: 3%;
+}
+input{
+    padding-block: 15px;
+    padding-inline: 15px;
+    border-radius: 6px;
+    border: none;
+}
+.Enquiryform form textarea{
+    width: 100%;
+    height: 6vw;
+    padding: 1.2vw;
+    margin-top: 1.2vw;
+    margin-bottom: 0.6vw;
+    border-radius: 6px;
+}
+footer{
+    padding-top: 6%;
+    display: flex;
+    flex-direction:column;
+    background-color: black;
+}
+.footerEndSection{
+    width: 73%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding-block:4%;
+}
+.DisclaimerDiv{
+    width: 73%;
+    margin:auto;
+    
+    color: white;
+}
+.copyright{
+    color: white;
+}
+.social{
+    color: white;
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;  
+}
